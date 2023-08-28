@@ -1,0 +1,74 @@
+Temerature Converter
+
+HTML
+
+<link rel="stylesheet" href="style.css">
+
+  <div class="container">
+  <h1>Temperature Converter</h1>
+  <input type="number" id="celsius" placeholder="Celsius">
+  <button id="convert">Convert</button>
+  <div class="result"></div>
+</div>
+CSS
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+button {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 16px;
+  margin-top: 10px;
+}
+CSS
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+button {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 16px;
+  margin-top: 10px;
+}
