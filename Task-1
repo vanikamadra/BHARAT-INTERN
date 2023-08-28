@@ -1,0 +1,68 @@
+Portfolio
+
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a student belongs to the department of Bachelor's of computer application in web development. I am passionate about creating beautiful and user-friendly websites.</p>
+      <p>I have a good understanding of HTML and CSS. I am also proficient in Python and C programming Languages.</p>
+      <p>I am a creative thinker and I am always ready to face challenge. I am also a team player and I am always willing to help others.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="#">My Website</a>
+          <img src="images/my-website.png" alt="My Website">
+          <p>This is my personal website. It was created using HTML and CSS .</p>
+        </li>
+        <li>
+          <a href="#">Cat photo app</a>
+          <img src="images/company-website.png" alt="A Company Website">
+          <p>This is a website I have done as a part of learning in free code camp using HTML and CSS.</p>
+        </li>
+       
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can contact me using the form below.</p>
+      <form action="#">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2023 My Portfolio
+  </footer>
+</body>
+</html>
+
+CSS
+
+body {
+  margin: 20px;
+}
+   
+JS
+
+console.log("from script file");
